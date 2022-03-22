@@ -156,11 +156,12 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dfepx4zib',
-    'API_KEY': '874626613369166',
-    'API_SECRET': 'piT1NX4i7CXZ0Zaf0rJqyW4vUGI',
-}
+cloudinary.config(
+    cloud_name="dzhxp777b",
+    api_key="939366662997374",
+    api_secret="NyVFQzHFPKnSIEYqKPbmu9FSwms",
+)
+
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
