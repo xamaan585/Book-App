@@ -1,3 +1,6 @@
 .thumbnail{
     position: relative;
 }
+.row{
+    background-color: aqua;
+}
