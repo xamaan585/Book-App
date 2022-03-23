@@ -8,22 +8,14 @@
         POST A BOOK
     </button>
     <br>
-		<div class="row gallery p-3" id="gallery">
+		<div class="row">
 			{% for product in products %}
-			<!-- <div class="col-g-4l"> -->
-                <div class="col-sm-8 col-lg-3 mb-3 imgdisplay"  data-toggle="modal" data-target="#{{photo.id}}">
-                    <img src="{{product.image.url}}" alt=" " class="card-img photo" height="200">
-                    <!-- <small id="photoDesc">{{photo.name}}</small> -->
-                    <h6 class="text-center"><strong>{{product.name}}</strong></h6>
-                </div>    
-				<!-- <img class="thumbnail" src="{{product.image.url}}">
+			<div class="col-g-4l">  
+				<img class="thumbnail" src="{{product.image.url}}">
 				<div class="box-element product">
 					<h6 class="text-center"><strong>{{product.name}}</strong></h6>
-					<hr> -->
-	
-					
-					
-					
+					<hr> 
+                    
 					<h4 style="display: inline-block;"><strong>ksh {{product.price}}</strong></h4>
 	
 				</div>

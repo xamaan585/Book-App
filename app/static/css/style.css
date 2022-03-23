@@ -1,7 +1,3 @@
-.gallery .imgdisplay{
+.thumbnail{
     position: relative;
-}
-.gallery img{
-    width: 100%;
-    /* height: 100%; */
 }
