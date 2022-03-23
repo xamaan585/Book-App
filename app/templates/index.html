@@ -10,16 +10,16 @@
     <br>
 		<div class="row">
 			{% for product in products %}
-			<div class="col-md-6">  
+			<div class="col-md-8">  
 				<img class="thumbnail" src="{{product.image.url}}">
 				<div class="box-element product">
 					<h6 style="display: inline-block;"><strong>{{product.name}}</strong></h6>
 					<hr> 
                     <p style="display: inline-block;">{{product.description}}</p>
                     <br>
-                    <h4 style="display: inline-block;"><strong>ksh {{product.author}}</strong></h4>
+                    <h4 style="display: inline-block;"><strong>Author: {{product.author}}</strong></h4>
                     <br>
-                    <h4 style="display: inline-block;"><strong>ksh {{product.year_published}}</strong></h4>
+                    <h4 style="display: inline-block;"><strong>Published Year:{{product.year_published}}</strong></h4>
                     <br>
 					<h4 style="display: inline-block;"><strong>ksh {{product.price}}</strong></h4>
 	
